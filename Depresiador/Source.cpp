@@ -17,7 +17,7 @@ int main()
 	std::cout << "Ingrese util de articulos en años: ";
 	std::cin >> vidaUtil;
 
-	std::cout << "precio en año 0: " << precioOriginal << std::endl;
+	
 
 	//calculo de suma de vidaUtil
 	float sumaVidaUtil = ( vidaUtil * (vidaUtil + 1) ) / 2;
@@ -35,9 +35,6 @@ int main()
 		precioOriginal -= caidaAnual;//total tras restar la caida
 		vidaUtil--;//le restamos 1 año antes de iterar
 
-		//salida por pantalla
-		std::cout << "año: " << i + 1 << " valor de caida: " << caidaAnual <<
-			" total  tras depresiacion: " << precioOriginal << std::endl;
 	}
 	//evita q se cierre
 	system("PAUSE");
