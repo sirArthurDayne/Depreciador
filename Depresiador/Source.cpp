@@ -36,7 +36,7 @@ int main()
 		vidaUtil--;//le restamos 1 año antes de iterar
 
 		//salida por pantalla
-		std::cout << "año: " i + 1 << " valor de caida: " <<< caidaAnual <<
+		std::cout << "año: " i + 1 << " valor de caida: " << caidaAnual <<
 			" total tras depresiacion: " << precioOriginal << std::end1;
 	}
 	//evita q se cierre
